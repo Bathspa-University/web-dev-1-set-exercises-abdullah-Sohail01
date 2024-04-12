@@ -1,0 +1,103 @@
+/* Add some basic styling to the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#D8BFD8;
+  }
+  
+  /* Style the recipe name */
+  .recipe-name {
+    background-color:#D8BFD8;
+    border:solid black;
+    padding: 20px;
+    height: 20vh;
+    width: 218vh;
+    text-align: center;
+    font-family:Verdana;
+    font-size: 4rem;
+    color:#666; 
+  }
+
+  .images {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.recipe-image {
+    width: 30%;
+  height: 500px;
+  display: block;
+  
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+  /* Style the recipe description */
+  .recipe-description {
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+
+b{
+    color: black;
+}
+
+
+  /* Style the ingredients title */
+  .ingredients-title {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the ingredients list */
+  .ingredients-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Style the individual ingredients */
+  .ingredients-list li {
+    font-size: 1.2rem;
+    color: #666;
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  /* Style the method title */
+  .method-title {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the method list */
+  .method-list {
+    list-style-type: decimal;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style the individual method steps */
+  .method-list li {
+    font-size: 1.2rem;
+    color: #666;
+    padding: 5px;
+  }

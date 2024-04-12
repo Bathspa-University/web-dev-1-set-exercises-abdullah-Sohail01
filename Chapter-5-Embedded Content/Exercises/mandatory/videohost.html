@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Video with Loop and Poster</title>
+
+<!-- #1: Link the CSS Stylesheet with the HTML document -->
+
+    <link rel="stylesheet" href="videohost.css">
+
+</head>
+<body>
+
+ <!--                               -:  THE START  :-                                 -->
+
+
+    <!-- #2: Creating a div container with class="videohost-Container"  -->
+
+<div class="videohost-Container">
+
+        <!-- #3: Using Three different attributes; 
+        1: Loop = The video should loop and play continuously
+        2: Poster = An image will display before the video starts.
+        3. Controls = Add video controls (play & pause, volume, full screen, etc)  -->
+
+  <video loop poster="poster.jpg" controls>
+
+<!-- #4: Adding video to be played  -->
+
+
+  <source src="myvideo.mp4.mp4" type="video/mp4">
+          
+</video>
+</div>
+</body>
+</html>
+
+
+
+<!--                                          -:  THE END  :-                                      -->
